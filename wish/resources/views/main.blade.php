@@ -1,7 +1,7 @@
 @extends('layout.base')
 
 @section('konten')
-    
+  
 @endsection
 
 @section('navbar')
