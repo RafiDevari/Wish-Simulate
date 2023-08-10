@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="wish.css">
 </head>
 <body style="background-image: url('https://th.bing.com/th/id/OIP.NybRdXatKIsUS844cVtEaAAAAA?pid=ImgDet&rs=1'); background-repeat: no-repeat; background-size: 120%;">
     
