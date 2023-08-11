@@ -15,6 +15,6 @@
 
     @yield('footer')
 
-    
+    <script src="car.js"></script>
 </body>
 </html>
