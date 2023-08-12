@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="wish.css">
 </head>
-<body style="background-image: url('https://th.bing.com/th/id/OIP.NybRdXatKIsUS844cVtEaAAAAA?pid=ImgDet&rs=1'); background-repeat: no-repeat; background-size: 120%;">
+<body style="background-image: url('https://th.bing.com/th/id/OIP.NybRdXatKIsUS844cVtEaAAAAA?pid=ImgDet&rs=1'); background-repeat: no-repeat; background-size: 120%;background-size:cover">
     
     @yield('navbar')
 
@@ -16,5 +16,6 @@
     @yield('footer')
 
     <script src="car.js"></script>
+    <script src="wish.js"></script>
 </body>
 </html>

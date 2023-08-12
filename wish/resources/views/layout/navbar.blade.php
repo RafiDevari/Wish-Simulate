@@ -1,9 +1,8 @@
 
-<table style="width: 100%" border="0"><tr>
+<table style="width: 100%"><tr>
 
     <td>
-        <img src="http://www.rw-designer.com/icon-view/22723.png" alt="">
-        <h5>Wish</h5>
+        <img src="http://www.rw-designer.com/icon-view/22723.png" alt="">wish
     </td>
 
     <td>

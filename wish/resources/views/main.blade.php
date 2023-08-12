@@ -1,4 +1,11 @@
+@section('footer')
+    @extends('layout.footer')
+@endsection
+
+
 @extends('layout.base')
+
+
 
 @section('konten')
   <div class="slide">
@@ -10,6 +17,10 @@
   </div>
 @endsection
 
+
+
 @section('navbar')
     @extends('layout.navbar')
 @endsection
+
+
