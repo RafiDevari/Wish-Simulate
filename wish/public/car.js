@@ -273,6 +273,7 @@ const showPopupButton = document.getElementById("showPopupButton");
 const closePopupButton = document.getElementById("closePopupButton");
 const popup = document.getElementById("popup");
 const histpop=document.getElementById("popup2")
+const close=document.getElementById("close")
 
 showPopupButton.addEventListener("click", () => {
     
@@ -292,8 +293,6 @@ closePopupButton.addEventListener("click", () => {
 //History
 function historys() {
     histpop.style.display = "flex";
-
-    setTimeout(() => {
-        histpop.style.display = "none";
-    }, 1000);
+    var tampilan=document.getElementById("sejarah")
+    
 }

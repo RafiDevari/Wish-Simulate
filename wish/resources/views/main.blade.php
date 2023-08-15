@@ -8,7 +8,6 @@
 
 
 @section('konten')
-<button id="showPopupButton">Show Popup</button>
     
     <div id="popup" class="popup">
         <div class="popup-content">
@@ -18,7 +17,12 @@
 
     <div id="popup2" class="popup">
       <div id="data" class="popup-content">
-          <h2 id="hist">Popup Content</h2>
+        <button id="close">Close</button>
+          <h2 id="hist">
+            <ul id="sejarah">
+              
+            </ul>
+          </h2>
       </div>
   </div>
     
