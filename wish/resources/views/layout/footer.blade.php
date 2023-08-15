@@ -1,8 +1,13 @@
 <nav style="height:100px">
-  s
+  
   {{-- Rencana optimized path --}}
 </nav>
 
+
+
+<div>
+  <h5 id="pity">test</h5>
+</div>
 
 <table style="width: 100%" border="1"><tr>
 
@@ -11,10 +16,14 @@
           Starglitter:0 &nbsp; Stardust:0   
       </div>
       <div style="margin-top: 10px">
+
         
+
         <button>Shop</button>
         <button>Details</button>
-        <button>History</button>
+        <button onclick="historys()">
+        <div>History</div>
+        </button>
 
       </div>
   </td>
@@ -41,3 +50,5 @@
   
 
 </tr></table>
+
+

@@ -8,6 +8,20 @@
 
 
 @section('konten')
+<button id="showPopupButton">Show Popup</button>
+    
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2 id="37">Popup Contest</h2>
+        </div>
+    </div>
+
+    <div id="popup2" class="popup">
+      <div id="data" class="popup-content">
+          <h2 id="hist">Popup Content</h2>
+      </div>
+  </div>
+    
   <div class="slide">
     <button onclick="prev()"><</button>
     <div class="slide-item">
