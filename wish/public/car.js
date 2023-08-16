@@ -1,31 +1,34 @@
 var array = [
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/560px-PNG_transparency_demonstration_1.png',
-    'https://4.bp.blogspot.com/-sL27hk1Aq30/VxsWEnra7PI/AAAAAAAAE_s/Bp0iEq8srb4m8xQpgbYH1Zh_ylfIicBfACLcB/s320/3dAletter.png',
-    'https://3.bp.blogspot.com/--qjkLEY-CLo/VxsWIsHb2BI/AAAAAAAAE_w/86yz5MkdSQkUk_pTxDryFwQ3GGrKfAHzwCLcB/s320/3dBletter.png',
-    'https://4.bp.blogspot.com/-elNbDyMXaRc/VxsWEYpS4uI/AAAAAAAAE_o/mNtCp07G-voaDBSyR5wkdf5hNoXtGwq8wCLcB/s320/3dCletter.png'
+    'albedo',
+    'ayaka',
+    'yoimiya',
+    'keqing'
 ]
-var slide=document.getElementById('slide')
-var now= 0
+var slide=document.getElementById('bg')
+var namaban=document.getElementById('bannername')
+var now = 0
+
 
 
 function change(id) {
     now=id-1
     slide.src=array[id-1];
-    // var test=document.getElementById('tes');
-    // test.textContent=array.length;
 }
-
+    
 function next(){
     if (now<array.length-1) {
         now++
-        slide.src=array[now];
+        slide.style.backgroundImage='url("https://api.genshin.dev/characters/'+array[now]+'/gacha-splash")';
+        namaban.textContent=array[now]
+
     }
 }
 
 function prev(){
     if (now>0) {
         now--
-        slide.src=array[now];
+        slide.style.backgroundImage='url("https://api.genshin.dev/characters/'+array[now]+'/gacha-splash")';
+        namaban.textContent=array[now]
     }
 }
 
@@ -273,11 +276,15 @@ const showPopupButton = document.getElementById("showPopupButton");
 const closePopupButton = document.getElementById("closePopupButton");
 const popup = document.getElementById("popup");
 const histpop=document.getElementById("popup2")
-const close=document.getElementById("close")
+const tutups=document.getElementById("tutup")
 
 showPopupButton.addEventListener("click", () => {
     
 });
+
+tutups.addEventListener("click", () => {
+    histpop.style.display = "none";
+})
 
 closePopupButton.addEventListener("click", () => {
     popup.style.display = "none";
@@ -294,5 +301,13 @@ closePopupButton.addEventListener("click", () => {
 function historys() {
     histpop.style.display = "flex";
     var tampilan=document.getElementById("sejarah")
-    
+    tampilan.textContent=""
+    for (let index = 0; index < history.length; index++) {
+        var apaisinya=history[index]
+        tampilan.innerHTML += "<li>" + apaisinya + "</li>"
+        
+    }
+    setTimeout(() => {
+        histpop.style.display = "none";
+    }, 1000);
 }

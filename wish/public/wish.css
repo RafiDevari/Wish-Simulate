@@ -21,14 +21,21 @@
   margin-top: 35px;
 }
 
+
 .slide-item {
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 800px;
   height: 450px;
 }
 
 .slide-item img {
-  background-size: cover;
+  height: 450px;
 }
 
 .navbar a {
@@ -58,7 +65,7 @@
   width: 100%;
   object-fit: none;
   object-position: 40% 20%; */
-  height: 50px;
+  height: 100px;
 }
 
 .popup {

@@ -9,12 +9,12 @@
       <div class="navbar">
         <div class="navbar-card">
               {{-- suiitable height/width = 50/100 px --}}
-          <a id="1" onclick="change(this.id)" href="#">
+          <a name="albedo" id="1" onclick="change(this.id)" href="#">
             <div class="imgcont">
-              <img class="navimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/560px-PNG_transparency_demonstration_1.png" alt="">
+              <img class="navimg" src="https://api.genshin.dev/characters/albedo/gacha-splash" alt="">
             </div>
           </a>
-          <a id="2" onclick="change(this.id)" href="#">
+          <a name="klee" id="2" onclick="change(this.id)" href="#">
             <div class="imgcont">
               <img class="navimg" src="https://4.bp.blogspot.com/-sL27hk1Aq30/VxsWEnra7PI/AAAAAAAAE_s/Bp0iEq8srb4m8xQpgbYH1Zh_ylfIicBfACLcB/s320/3dAletter.png" alt="">
             </div>
