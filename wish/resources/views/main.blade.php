@@ -11,19 +11,29 @@
     
     <div id="popup" class="popup">
         <div class="popup-content">
-          <button id="closePopupButton">ed</button>
+          <img id="squirt" src="https://api.genshin.dev/characters/beidou/gacha-splash" alt="">
             <h2 id="37">Popup Contest</h2>
         </div>
     </div>
 
     <div id="popup2" class="popup">
       <div id="data" class="popup-content">
-        <button id="tutup">Close</button>
+        <button onclick="tutups()" id="tutup">TUTUP</button>
           <h2 id="hist">
-            <ul id="sejarah">
+            <ol id="sejarah">
               ra
-            </ul>
+            </ol>
           </h2>
+          
+
+          <div>
+            <table border="1">
+              <tr id="paginate">
+                
+
+              </tr>
+            </table>
+          </div>
       </div>
   </div>
     
@@ -31,12 +41,15 @@
     <button onclick="prev()"><</button>
 
 
-    <div id="bg" style="background-image: url('https://api.genshin.dev/characters/albedo/gacha-splash');" class="slide-item">
+    <div style="background-color: white;">
+      
+    
+    <div id="bg" style="" class="slide-item bgslide">
 
 
       <table border="0" style="width:100%">
         <tr>
-          <td id="bannername" style="width: 60%">ALBEDO</td>
+          <td id="bannername" style="width: 60%">albedo</td>
           <td></td>
           <td style="width: 200px; height: 200px; overflow: auto;">
             <img id="banner41" style="height: 80%" src="https://api.genshin.dev/characters/beidou/gacha-splash" alt="">
@@ -53,7 +66,7 @@
         </tr>
       </table>
 
-
+    </div>
     </div>
 
 
