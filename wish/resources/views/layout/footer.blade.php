@@ -9,7 +9,7 @@
   <h5 id="pity">test</h5>
 </div>
 
-<table style="width: 100%" border="1"><tr>
+<table style="width: 100%" border="0"><tr>
 
   <td>
       <div>
